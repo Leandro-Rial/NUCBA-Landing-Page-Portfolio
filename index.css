@@ -6,6 +6,13 @@
     box-sizing: border-box;
 }
 
+body {
+    background: #f6f6f7;
+}
+
+/* +++++++++++++++ */
+/* ++++NAVBAR+++++ */
+/* +++++++++++++++ */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -39,4 +46,106 @@
     text-decoration: none;
     /* color: #ff65a8; */
     color: deeppink;
+}
+
+/* ++++++++++++++++ */
+/* +++++BANNER+++++ */
+/* ++++++++++++++++ */
+.banner--wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 70px);
+}
+
+.banner--wrapper video {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 70px);
+    -o-object-fit: cover;
+    object-fit: cover;
+    background: #232a34;
+    z-index: -1;
+}
+
+.banner--wrapper .banner--texts {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.banner--wrapper .banner--texts .banner--title {
+    font: normal bold 65px/60px Montserrat;
+    color: deeppink;
+    margin-bottom: 100px;
+}
+
+.banner--wrapper .banner--texts .banner--subtitle {
+    font: normal normal 50px/50px Montserrat;
+    color: #00FF00;
+    margin-bottom: 100px;
+}
+
+/* +++++++++++++++++++++ */
+/* +++++InfoSection+++++ */
+/* +++++++++++++++++++++ */
+.infoSection--wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    padding: 3.5em;
+}
+
+.infoSection--left {
+    align-items: flex-start;
+}
+
+.infoSection--left__title {
+    font: normal bold 55px/60px Montserrat;
+    margin-bottom: 40px;
+    color: #313131;
+}
+
+.infoSection--left__title span {
+    font: normal bold 55px/60px Montserrat;
+    margin-bottom: 40px;
+    color: deeppink;
+}
+
+.infoSection--left__p {
+    width: 80%;
+    font: normal normal 28px/40px Montserrat;
+    color: #4C4C4C;
+}
+
+.infoSection--left__p span {
+    width: 80%;
+    font: normal normal 28px/40px Montserrat;
+    color: deeppink;
+}
+
+.infoSection--right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.infoSection--right__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.infoSection--right__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
