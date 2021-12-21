@@ -149,3 +149,156 @@ body {
     height: 100%;
     object-fit: cover;
 }
+
+/* PROGRAMMING LENGUAGES */
+.programming-languages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    padding: 3.5em;
+    background: #021a7d;
+}
+
+.p-l--title {
+    font: normal bold 44px/56px Montserrat;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.p-l--p {
+    font: normal bold 24px/44px Montserrat;
+    color: #fff;
+}
+
+.cards--wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1250px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 325px;
+    height: 400px;
+    background: #061c8b;
+    box-shadow: 0px 0px 20px 8px rgba(3,21,114,0.75);
+    -webkit-box-shadow: 0px 0px 20px 8px rgba(3,21,114,0.75);
+    -moz-box-shadow: 0px 0px 20px 8px rgba(3,21,114,0.75);
+    border-radius:25px;
+    margin-top: 100px;
+    padding: 20px;
+    transition: 0.4s ease-in;
+}
+
+.card:hover {
+    background: #9b0254;
+    color: #06095c;
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px 0px rgba(155,2,84,0.75);
+    -webkit-box-shadow: 10px 10px 15px 0px rgba(155,2,84,0.75);
+    -moz-box-shadow: 10px 10px 15px 0px rgba(155,2,84,0.75);
+}
+
+.card--picture img {
+    width: 80px;
+    height: 80px;
+}
+
+.card--title {
+    font: normal bold 28px/36px Montserrat;
+    color: deeppink;
+}
+
+.card--description {
+    margin: 0 auto;
+    font: normal bold 12px/24px Montserrat;
+    color: #fff;
+}
+
+/* HOW I WORK */
+.how-i-work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    padding: 3.5em;
+    background: #f6f6f7;
+}
+
+.h-i-w--title {
+    font: normal bold 56px/56px Montserrat;
+    color: deeppink;
+    margin-bottom: 20px;
+}
+
+.h-i-w--subtitle {
+    font: normal bold 36px/44px Montserrat;
+    color: #313131;
+}
+
+.h-i-w--cards--wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1250px;
+}
+
+.h-i-w--card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 325px;
+    height: 325px;
+    border-radius:25px;
+    margin-top: 100px;
+    padding: 20px;
+    transition: 0.4s ease-in;
+}
+
+.h-i-w--header {
+    width: 85px;
+    height: 84px;
+    background: #06095c;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.header--title {
+    font: normal bold 18px/24px Montserrat;
+    color: #fff;
+}
+
+.h-i-w--main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.main--title {
+    font: normal bold 30px/36px Montserrat;
+    color: deeppink;
+}
+
+.main--p {
+    height: 72px;
+    margin: 0 auto;
+    font: normal normal 16px/24px Montserrat;
+    color: #313131;
+}
